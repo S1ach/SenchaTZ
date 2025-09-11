@@ -1022,7 +1022,6 @@
 		"fontPref": {
 			"prefix": "icon-",
 			"metadata": {
-				"fontFamily": "ext-watermark",
 				"majorVersion": 1,
 				"minorVersion": 0
 			},
