@@ -1,8 +1,3 @@
-/**
- * The main application class. An instance of this class is created by app.js when it
- * calls Ext.application(). This is the ideal place to handle application launch and
- * initialization details.
- */
 Ext.define('SenchaTZ.Application', {
     extend: 'Ext.app.Application',
 
@@ -12,6 +7,14 @@ Ext.define('SenchaTZ.Application', {
     platformConfig: {
         desktop: {
             quickTips: true
+        }
+    },
+
+    launch: function () {
+        if (localStorage.getItem('isLoggedIn') === 'true') {
+            this.setMainView('SenchaTZ.view.main.Main');
+        } else {
+            this.setMainView('SenchaTZ.view.login.Login');
         }
     },
 

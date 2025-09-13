@@ -954,7 +954,7 @@ $panel-ignore-frame-padding: dynamic(false);
                 @if $ext-trial {
                     &:after {
                         font-size: ($ui-header-line-height + vertical($ui-header-padding)) * 0.75;
-                        content: 'd';
+                        content: ' ';
                         position: absolute;
                         top: 0;
                         right: 0;
