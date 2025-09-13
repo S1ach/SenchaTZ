@@ -53,17 +53,3 @@ sencha app watch
 http://localhost:1841
 
 
-## Сборка проекта
-
-Для сборки приложения выполните:
-
-```
-sencha app build
-```
-
-Для запуска в режиме разработки:
-
-```
-sencha app watch
-```
-
