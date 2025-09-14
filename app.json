@@ -158,12 +158,17 @@
             "output": "shared"
         },
         {
+            "path": "resources/custom",
+            "output": "custom"
+        },
+        {
             "path": "${toolkit.name}/resources"
         },
         {
             "path": "${build.id}/resources"
         }
     ],
+
 
 
     "archivePath": "archive/${build.id}",
